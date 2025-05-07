@@ -2,7 +2,7 @@ name: ✨ 기능 요청 (Feature Request)
 description: 새로운 기능을 제안하고 개발 계획을 세웁니다.
 title: "feat: [기능 요약]"
 labels: enhancement
-assignees: ''
+assignees: []
 
 body:
   - type: textarea
@@ -33,9 +33,13 @@ body:
       placeholder: |
         - 이미지 최적화 방안 고려
         - 관련 API 문서 링크: [링크]
+    validations:
+      required: false
   - type: input
     id: due-date
     attributes:
       label: 📅 목표 완료일 (선택)
       description: 개인적인 목표 완료일을 설정합니다.
       placeholder: "YYYY-MM-DD"
+    validations:
+      required: false

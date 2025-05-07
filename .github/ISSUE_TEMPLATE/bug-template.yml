@@ -49,13 +49,19 @@ body:
         - OS: Windows 11
         - Browser: Chrome 1XX.X.XXXX.XX
         - Node.js version: vXX.X.X (백엔드 버그의 경우)
+    validations:
+      required: false
   - type: textarea
     id: screenshots
     attributes:
       label: 📸 스크린샷 (선택)
       description: 가능하다면 버그 상황을 보여주는 스크린샷을 첨부해주세요. (이미지 직접 업로드 또는 링크)
+    validations:
+      required: false
   - type: textarea
     id: additional-context
     attributes:
       label: 💡 추가 정보 (선택)
       description: 문제 해결에 도움이 될 만한 추가적인 정보가 있다면 작성해주세요.
+    validations:
+      required: false
