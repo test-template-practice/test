@@ -47,3 +47,4 @@ body:
       placeholder: "예: 코드 복잡도 감소, 문서 최신화 완료"
     validations:
       required: false
+  
