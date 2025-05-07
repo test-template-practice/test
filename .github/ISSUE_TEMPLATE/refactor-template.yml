@@ -9,18 +9,19 @@ body:
     id: task-type
     attributes:
       label: 🏷️ 작업 유형
-      description: 작업의 성격을 선택해주세요. (title에도 반영해주세요)
+      description: |
+        작업의 성격을 선택해주세요. (title에도 반영해주세요)
+        - refactor: 코드 리팩토링
+        - docs: 문서 작업
+        - chore: 빌드/설정 유지보수
+        - style: 코드 스타일 정리
+        - test: 테스트 코드 작성/수정
       options:
-        - label: 코드 리팩토링
-          value: refactor
-        - label: 문서 작업
-          value: docs
-        - label: 빌드, 설정 등 기타 유지보수 작업
-          value: chore
-        - label: 코드 스타일 정리 (포맷팅 등)
-          value: style
-        - label: 테스트 코드 작성/수정
-          value: test
+        - refactor
+        - docs
+        - chore
+        - style
+        - test
       default: 0
     validations:
       required: true
