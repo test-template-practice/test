@@ -2,7 +2,7 @@ name: 🐛 버그 리포트 (Bug Report)
 description: 발생한 버그를 상세히 기록하여 빠르게 해결할 수 있도록 합니다.
 title: "fix: [버그 요약]"
 labels: bug
-assignees: ''
+assignees: []
 
 body:
   - type: textarea
@@ -44,7 +44,7 @@ body:
     id: environment
     attributes:
       label: 💻 사용 환경 (선택)
-      description: 버그가 발생한 환경을 알려주세요. (예: 브라우저 종류 및 버전, OS 등)
+      description: 버그가 발생한 환경을 알려주세요. (브라우저 종류 및 버전, OS 등)
       placeholder: |
         - OS: Windows 11
         - Browser: Chrome 1XX.X.XXXX.XX
