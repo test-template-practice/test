@@ -2,7 +2,7 @@ name: 🛠️ 일반 작업 (Task / Chore / Refactor / Docs)
 description: 코드 리팩토링, 문서 작업, 설정 변경 등 일반적인 작업을 기록합니다.
 title: "[타입]: [작업 내용 요약]"
 labels: task
-assignees: ''
+assignees: []
 
 body:
   - type: dropdown
@@ -47,3 +47,4 @@ body:
       placeholder: "예: 코드 복잡도 감소, 문서 최신화 완료"
     validations:
       required: false
+  
